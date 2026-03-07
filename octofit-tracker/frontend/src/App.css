@@ -1,0 +1,109 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #2c3e50;
+}
+
+
+.App-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: #1a2636;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #ff7f50;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #1a2636 0%, #3a506b 100%);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+}
+.navbar-brand img {
+  margin-right: 8px;
+}
+.navbar-nav .nav-link.active {
+  color: #ff7f50 !important;
+}
+
+h2, .card-title {
+  color: #3a506b;
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: linear-gradient(90deg, #ff7f50 0%, #ffb347 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(255,127,80,0.1);
+}
+.btn-primary:hover {
+  background: linear-gradient(90deg, #ffb347 0%, #ff7f50 100%);
+  color: #fff;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table th {
+  background: #3a506b !important;
+  color: #fff;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f6f9fc;
+}
+.table-bordered {
+  border: 1px solid #3a506b;
+}
+
+.card {
+  border-radius: 16px;
+  border: none;
+  box-shadow: 0 4px 24px rgba(58,80,107,0.08);
+}
+
+/* Favicon (handled by public/favicon.ico) */
+
+/* Forms, modals, etc. можно добавить по мере необходимости */
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
